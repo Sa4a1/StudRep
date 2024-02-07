@@ -1,0 +1,3 @@
+if (string.IsNullOrWhiteSpace(txtA.Text)) MessageBox.Show("Введите коэффициент А");
+else if (string.IsNullOrWhiteSpace(txtA.Text)) MessageBox.Show("Введите коэффициент B");
+else if (string.IsNullOrWhiteSpace(txtA.Text)) MessageBox.Show("Введите коэффициент C");
