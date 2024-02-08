@@ -1,0 +1,5 @@
+CREATE TABLE [DbIskhakov].[dbo].[LK]
+(
+	AUD nvarchar(20)
+)
+INSERT INTO [DbIskhakov].[dbo].[LK] SELECT AUDITORIUM FROM AUDITORIUM WHERE AUDITORIUM_TYPE ='À '

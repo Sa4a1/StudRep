@@ -1,0 +1,6 @@
+CREATE VIEW lab2_3
+as 
+SELECT PULPIT.PULPIT as Код_Кафедры, PULPIT.PULPIT_NAME as Наименование_кафедры, PULPIT.FACULTY as Код_Факультета
+FROM PULPIT
+WHERE PULPIT.FACULTY = '1'
+WITH CHECK OPTION
