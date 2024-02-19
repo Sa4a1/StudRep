@@ -1,0 +1,22 @@
+D:\VS projects\URAVANINIEGOTOVOE\bin\Debug\URAVANINIEGOTOVOE.exe.config
+D:\VS projects\URAVANINIEGOTOVOE\bin\Debug\URAVANINIEGOTOVOE.exe
+D:\VS projects\URAVANINIEGOTOVOE\bin\Debug\URAVANINIEGOTOVOE.pdb
+D:\VS projects\URAVANINIEGOTOVOE\obj\Debug\URAVANINIEGOTOVOE.csproj.AssemblyReference.cache
+D:\VS projects\URAVANINIEGOTOVOE\obj\Debug\URAVANINIEGOTOVOE.csproj.SuggestedBindingRedirects.cache
+D:\VS projects\URAVANINIEGOTOVOE\obj\Debug\URAVANINIEGOTOVOE.Properties.Resources.resources
+D:\VS projects\URAVANINIEGOTOVOE\obj\Debug\URAVANINIEGOTOVOE.csproj.GenerateResource.cache
+D:\VS projects\URAVANINIEGOTOVOE\obj\Debug\URAVANINIEGOTOVOE.csproj.CoreCompileInputs.cache
+D:\VS projects\URAVANINIEGOTOVOE\obj\Debug\URAVANINIEGOTOVOE.exe
+D:\VS projects\URAVANINIEGOTOVOE\obj\Debug\URAVANINIEGOTOVOE.pdb
+D:\VS projects\URAVANINIEGOTOVOE\obj\Debug\URAVANINIEGOTOVOE.Ura.resources
+C:\Users\HP\Documents\НЕ ЛЕЗЬ УБЬЁТ\учёба\StudRep\StudFebruary\StudRep\Тестирование\URAVANINIEGOTOVOE\URAVANINIEGOTOVOE\bin\Debug\URAVANINIEGOTOVOE.exe.config
+C:\Users\HP\Documents\НЕ ЛЕЗЬ УБЬЁТ\учёба\StudRep\StudFebruary\StudRep\Тестирование\URAVANINIEGOTOVOE\URAVANINIEGOTOVOE\bin\Debug\URAVANINIEGOTOVOE.exe
+C:\Users\HP\Documents\НЕ ЛЕЗЬ УБЬЁТ\учёба\StudRep\StudFebruary\StudRep\Тестирование\URAVANINIEGOTOVOE\URAVANINIEGOTOVOE\bin\Debug\URAVANINIEGOTOVOE.pdb
+C:\Users\HP\Documents\НЕ ЛЕЗЬ УБЬЁТ\учёба\StudRep\StudFebruary\StudRep\Тестирование\URAVANINIEGOTOVOE\URAVANINIEGOTOVOE\obj\Debug\URAVANINIEGOTOVOE.csproj.AssemblyReference.cache
+C:\Users\HP\Documents\НЕ ЛЕЗЬ УБЬЁТ\учёба\StudRep\StudFebruary\StudRep\Тестирование\URAVANINIEGOTOVOE\URAVANINIEGOTOVOE\obj\Debug\URAVANINIEGOTOVOE.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Documents\НЕ ЛЕЗЬ УБЬЁТ\учёба\StudRep\StudFebruary\StudRep\Тестирование\URAVANINIEGOTOVOE\URAVANINIEGOTOVOE\obj\Debug\URAVANINIEGOTOVOE.Ura.resources
+C:\Users\HP\Documents\НЕ ЛЕЗЬ УБЬЁТ\учёба\StudRep\StudFebruary\StudRep\Тестирование\URAVANINIEGOTOVOE\URAVANINIEGOTOVOE\obj\Debug\URAVANINIEGOTOVOE.Properties.Resources.resources
+C:\Users\HP\Documents\НЕ ЛЕЗЬ УБЬЁТ\учёба\StudRep\StudFebruary\StudRep\Тестирование\URAVANINIEGOTOVOE\URAVANINIEGOTOVOE\obj\Debug\URAVANINIEGOTOVOE.csproj.GenerateResource.cache
+C:\Users\HP\Documents\НЕ ЛЕЗЬ УБЬЁТ\учёба\StudRep\StudFebruary\StudRep\Тестирование\URAVANINIEGOTOVOE\URAVANINIEGOTOVOE\obj\Debug\URAVANINIEGOTOVOE.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\НЕ ЛЕЗЬ УБЬЁТ\учёба\StudRep\StudFebruary\StudRep\Тестирование\URAVANINIEGOTOVOE\URAVANINIEGOTOVOE\obj\Debug\URAVANINIEGOTOVOE.exe
+C:\Users\HP\Documents\НЕ ЛЕЗЬ УБЬЁТ\учёба\StudRep\StudFebruary\StudRep\Тестирование\URAVANINIEGOTOVOE\URAVANINIEGOTOVOE\obj\Debug\URAVANINIEGOTOVOE.pdb
