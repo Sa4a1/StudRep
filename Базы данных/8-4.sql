@@ -3,8 +3,11 @@ CREATE PROCEDURE  check_email
 	WITH ENCRYPTION
 AS
 BEGIN
-    IF @email like '%@%.%'
-	PRINT 'Строка является адресом электронной почти'
-	ELSE 
-	PRINT 'Строка не является адресом электронной почти'
-END;
+DECLARE @Value BIT
+	if ((SELECT  LEN(@email) - LEN(REPLACE(@email,'@',''))) > 1)
+	SET @Value = 0
+	else if ((SELECT  LEN(@email) - LEN(REPLACE(@email,'.',''))) > 2) AND (CHARINDEX ('.',@email) = 0)	SET @Value = 0
+	else if (CHARINDEX('@',@email) = 0) SET @Value = 0
+	else if (CHARINDEX('.',@email) = 0) SET @Value = 0
+	else if (CHARINDEX('@',@email,(CHARINDEX('.',@email))+1) = 0)
+END
