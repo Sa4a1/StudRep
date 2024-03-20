@@ -1,0 +1,147 @@
+using System;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+namespace UnitTestProject1
+{
+    [TestClass]
+    public class UnitTest1
+    {
+        [TestMethod]
+        public void RightPassword()
+        {
+            string password = "123456Asd$";
+            bool expected = true;
+
+            Assert.AreEqual(expected, PasswordCheck.CorrectPassword(password));
+        }
+
+        [TestMethod]
+        public void OnlyNumberPassword()
+        {
+            string password = "123456789";
+            bool expected = false;
+
+            Assert.AreEqual(expected, PasswordCheck.CorrectPassword(password));
+        }
+
+
+        [TestMethod]
+        public void OnlyLitteraPassword()
+        {
+            string password = "abcdEFgher";
+            bool expected = false;
+
+            Assert.AreEqual(expected, PasswordCheck.CorrectPassword(password));
+        }
+
+        [TestMethod]
+        public void OnlySymbolPassword()
+        {
+            string password = "@#$%^&*(";
+            bool expected = false;
+
+            Assert.AreEqual(expected, PasswordCheck.CorrectPassword(password));
+        }
+
+        [TestMethod]
+        public void OnlyLowerLiteralPassword()
+        {
+            string password = "abcdefghij";
+            bool expected = false;
+
+            Assert.AreEqual(expected, PasswordCheck.CorrectPassword(password));
+        }
+
+        [TestMethod]
+        public void OnlyUpperLiteralPassword()
+        {
+            string password = "ABCDEFGHIJ";
+            bool expected = false;
+
+            Assert.AreEqual(expected, PasswordCheck.CorrectPassword(password));
+        }
+
+        [TestMethod]
+        public void PasswordWithoutSymbols()
+        {
+            string password = "123456Avcs";
+            bool expected = false;
+
+            Assert.AreEqual(expected, PasswordCheck.CorrectPassword(password));
+        }
+
+        [TestMethod]
+        public void PasswordWithoutNumbers()
+        {
+            string password = "abcdEf%$";
+            bool expected = false;
+
+            Assert.AreEqual(expected, PasswordCheck.CorrectPassword(password));
+        }
+
+        [TestMethod]
+        public void PasswordWithoutLiterals()
+        {
+            string password = "12345678%%##!";
+            bool expected = false;
+
+            Assert.AreEqual(expected, PasswordCheck.CorrectPassword(password));
+        }
+
+        [TestMethod]
+        public void PasswordWithoutUpperLiterals()
+        {
+            string password = "1234567avc%&";
+            bool expected = false;
+
+            Assert.AreEqual(expected, PasswordCheck.CorrectPassword(password));
+        }
+
+        [TestMethod]
+        public void PasswordWithouLowerLiterals()
+        {
+            string password = "13254468AVC$%";
+            bool expected = false;
+
+            Assert.AreEqual(expected, PasswordCheck.CorrectPassword(password));
+        }
+
+
+        [TestMethod]
+        public void OutOfRangeUpperLimit()
+        {
+            string password = "123456789123456789Uol";
+            bool expected = false;
+
+            Assert.AreEqual(expected, PasswordCheck.CorrectPassword(password));
+        }
+
+        [TestMethod]
+        public void RangeUpperLimit()
+        {
+            string password = "12345678912345678cG$";
+            bool expected = true;
+
+            Assert.AreEqual(expected, PasswordCheck.CorrectPassword(password));
+        }
+
+
+        [TestMethod]
+        public void RangeLowerLimit()
+        {
+            string password = "12345Av%";
+            bool expected = true;
+
+            Assert.AreEqual(expected, PasswordCheck.CorrectPassword(password));
+        }
+        [TestMethod]
+        public void OutOfRangeLowerLimit()
+        {
+            string password = "12345Gh";
+            bool expected = false;
+
+            Assert.AreEqual(expected, PasswordCheck.CorrectPassword(password));
+        }
+
+    }
+}

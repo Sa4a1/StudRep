@@ -1,0 +1,37 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+
+namespace UnitTestProject1
+{
+    public class PasswordCheck
+    {
+        public static bool CorrectPassword(string password)
+        {
+            bool correctPassword;
+            int countNumeric = 0;
+            int countLiteral = 0;
+            bool upperLiteral = false;
+            bool lowerLiteral = false;
+            bool symbol = false;
+
+
+
+            for (int i = 0; i < password.Length; i++)
+            {
+                if (char.IsDigit(password[i])) countNumeric++;
+                else countLiteral++;
+                if (char.IsLower(password[i]) && char.IsLetter(password[i])) lowerLiteral = true;
+                if (char.IsUpper(password[i]) && char.IsLetter(password[i])) upperLiteral = true;
+                if (!char.IsLetterOrDigit(password[i])) symbol = true;
+            }
+
+            if ((password.Length >= 8 && password.Length <= 20) && (lowerLiteral && upperLiteral && symbol) && (countNumeric!= 0 && countLiteral >=2)) correctPassword = true;
+            else correctPassword = false;
+
+            return correctPassword;
+        }
+    }
+}
