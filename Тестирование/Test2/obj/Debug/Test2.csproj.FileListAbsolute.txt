@@ -19,3 +19,14 @@ C:\Users\HP\Documents\НЕ ЛЕЗЬ УБЬЁТ\учёба\StudRep\StudFebruary\S
 C:\Users\HP\Documents\НЕ ЛЕЗЬ УБЬЁТ\учёба\StudRep\StudFebruary\StudRep\Тестирование\Test2\obj\Debug\Test2.csproj.CoreCompileInputs.cache
 C:\Users\HP\Documents\НЕ ЛЕЗЬ УБЬЁТ\учёба\StudRep\StudFebruary\StudRep\Тестирование\Test2\obj\Debug\Test2.exe
 C:\Users\HP\Documents\НЕ ЛЕЗЬ УБЬЁТ\учёба\StudRep\StudFebruary\StudRep\Тестирование\Test2\obj\Debug\Test2.pdb
+C:\Users\HP\Documents\НЕ ЛЕЗЬ УБЬЁТ\учёба\StudRep\March\StudRep\Тестирование\Test2\bin\Debug\Test2.exe.config
+C:\Users\HP\Documents\НЕ ЛЕЗЬ УБЬЁТ\учёба\StudRep\March\StudRep\Тестирование\Test2\bin\Debug\Test2.exe
+C:\Users\HP\Documents\НЕ ЛЕЗЬ УБЬЁТ\учёба\StudRep\March\StudRep\Тестирование\Test2\bin\Debug\Test2.pdb
+C:\Users\HP\Documents\НЕ ЛЕЗЬ УБЬЁТ\учёба\StudRep\March\StudRep\Тестирование\Test2\obj\Debug\Test2.csproj.AssemblyReference.cache
+C:\Users\HP\Documents\НЕ ЛЕЗЬ УБЬЁТ\учёба\StudRep\March\StudRep\Тестирование\Test2\obj\Debug\Test2.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Documents\НЕ ЛЕЗЬ УБЬЁТ\учёба\StudRep\March\StudRep\Тестирование\Test2\obj\Debug\Test2.Form1.resources
+C:\Users\HP\Documents\НЕ ЛЕЗЬ УБЬЁТ\учёба\StudRep\March\StudRep\Тестирование\Test2\obj\Debug\Test2.Properties.Resources.resources
+C:\Users\HP\Documents\НЕ ЛЕЗЬ УБЬЁТ\учёба\StudRep\March\StudRep\Тестирование\Test2\obj\Debug\Test2.csproj.GenerateResource.cache
+C:\Users\HP\Documents\НЕ ЛЕЗЬ УБЬЁТ\учёба\StudRep\March\StudRep\Тестирование\Test2\obj\Debug\Test2.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\НЕ ЛЕЗЬ УБЬЁТ\учёба\StudRep\March\StudRep\Тестирование\Test2\obj\Debug\Test2.exe
+C:\Users\HP\Documents\НЕ ЛЕЗЬ УБЬЁТ\учёба\StudRep\March\StudRep\Тестирование\Test2\obj\Debug\Test2.pdb

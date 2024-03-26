@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -12,11 +13,55 @@ namespace Test2
 {
     public partial class Form1 : Form
     {
+        public bool SideLessThanZero(double side)
+        {
+            if (side <= 0) return true;
+            else return false;
+        }
+
+        public bool CheckUpperLimit(double sideLenth)
+        {
+            if (sideLenth > 50) return true;
+            else return false;
+        }
+
+        public bool RealTriangel(double sideA, double sideB,double sideC)
+        {
+            if (sideA + sideB <= sideC || sideC + sideB <= sideA || sideA + sideC <= sideB) return false;
+            else return true;
+        }
+
+        public bool IsoscelesTriangle(double sideA, double sideB, double sideC)
+        {
+            if (sideA == sideB || sideA == sideC || sideC == sideB) return true;
+            else return false;
+        }
+
+        public bool EquilateralTriangle(double firstSide, double secondSide, double thirdSide)
+        {
+            if(firstSide == secondSide && firstSide == thirdSide) return true;
+            else return false;
+        }
+
+        public bool ScaleneTriangle (double firstSide, double secondSide, double thirdSide)
+        {
+            if(firstSide!= secondSide && secondSide != thirdSide && firstSide!=thirdSide) return true;
+            else return false;
+        }
+
+        public bool RightTriangel(double firstSide, double secondSide, double thirdSide)
+        {
+            if ((Math.Pow(firstSide, 2) == Math.Pow(secondSide, 2) + Math.Pow(thirdSide, 2))
+                || (Math.Pow(secondSide, 2) == Math.Pow(firstSide, 2) + Math.Pow(thirdSide, 2)) ||
+                    (Math.Pow(thirdSide, 2) == Math.Pow(firstSide, 2) + Math.Pow(secondSide, 2))) return true;
+            else return false;
+        }
+
         public Form1()
         {
             InitializeComponent();
-
         }
+
         public static int CountA = 0;
         public static int CountB = 0;
         public static int CountC = 0;
@@ -128,14 +173,14 @@ namespace Test2
                 double a=Convert.ToDouble(textBox1.Text);
                 double b=Convert.ToDouble(textBox2.Text);
                 double c=Convert.ToDouble(textBox3.Text);
-                if (a <= 0 || b <= 0 || c <= 0) label1.Text = "Была введена сторона, равная или меньше нуля";
-                else if (a > 50 || b>50 || c>50) label1.Text = "Превышен диапазон допустимых значений";
-                else if (a >= b + c || b >= a + c || c >= b + a) label1.Text = "Треугольника не существует";
-                else if(a==b && b==c) label1.Text = "Треугольник равносторонний";
-                else if (a == b || b == c || a == c) label1.Text = "Треугольник равнобедренный";
-                else if(a!=b && b!=c && c!=a) label1.Text = "Треугольник разносторонний";
+                if (SideLessThanZero(a) || SideLessThanZero(b) || SideLessThanZero(c)) label1.Text = "Была введена сторона, равная или меньше нуля";
+                else if (CheckUpperLimit(a) || CheckUpperLimit(b) || CheckUpperLimit(c)) label1.Text = "Превышен диапазон допустимых значений";
+                else if (!RealTriangel(a,b,c)) label1.Text = "Треугольника не существует";
+                else if (EquilateralTriangle(a,b,c)) label1.Text = "Треугольник равносторонний";
+                else if (IsoscelesTriangle(a,b,c)) label1.Text = "Треугольник равнобедренный";
+                else if (ScaleneTriangle(a,b,c)) label1.Text = "Треугольник разносторонний";
 
-                if ((Math.Pow(a, 2) == Math.Pow(b, 2) + Math.Pow(c, 2)) || (Math.Pow(b, 2) == Math.Pow(a, 2) + Math.Pow(c, 2)) || (Math.Pow(c, 2) == Math.Pow(a, 2) + Math.Pow(b, 2)))
+                if (RightTriangel(a,b,c))
                 {
                     label1.Text += "\nТреугольник прямоугольный";
                 }
