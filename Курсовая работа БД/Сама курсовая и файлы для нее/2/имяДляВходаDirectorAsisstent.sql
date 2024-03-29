@@ -1,0 +1,1 @@
+sp_adduser @loginame = 'DirectorAsisstent', @name_in_db = 'DirectorAsisstent'

@@ -1,0 +1,1 @@
+sp_addrolemember db_datawriter , wordkerManager

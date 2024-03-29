@@ -1,0 +1,1 @@
+sp_addlogin 'WorkersManager', '321', 'ProjectOranizationDB';

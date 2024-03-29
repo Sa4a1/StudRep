@@ -1,0 +1,1 @@
+sp_addrolemember workerManager, Manager

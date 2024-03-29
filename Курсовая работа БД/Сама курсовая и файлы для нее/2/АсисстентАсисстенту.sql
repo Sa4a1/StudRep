@@ -1,0 +1,1 @@
+sp_addrolemember Asisstent, DirectorAsisstent

@@ -1,0 +1,1 @@
+sp_adduser @loginame = 'WorkersManager', @name_in_db = 'Manager'

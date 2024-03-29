@@ -1,0 +1,1 @@
+sp_addlogin 'DirectorAsisstent', '123', 'ProjectOranizationDB'

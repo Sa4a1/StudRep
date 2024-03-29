@@ -1,0 +1,1 @@
+sp_addrole @rolename ='workerManager'
